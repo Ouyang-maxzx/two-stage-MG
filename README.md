@@ -6,6 +6,8 @@
 
 语言：Python 3.10.1 + Gurobi 10.0.1
 
+程序说明：twostageMG.py为非紧凑形式的约束，KKTmatrix.py讲非紧凑形式的约束转化为紧凑形式，MGCCGKKT为采用KKT方法的CCG两阶段鲁棒求解程序，运行MGCCGKKT.py即可
+
 ![image](https://user-images.githubusercontent.com/51228607/232202948-6b38c3f2-0d30-403a-bfc7-0d0c1014b106.png)
 
 可控分布式电源出力
